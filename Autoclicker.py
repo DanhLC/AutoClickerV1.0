@@ -20,8 +20,8 @@ def stop_auto_click():
     global stop_clicking
     stop_clicking = True
 
-keyboard.add_hotkey('f4', start_auto_click)
-keyboard.add_hotkey('f5', stop_auto_click)
+keyboard.add_hotkey('f3', start_auto_click)
+keyboard.add_hotkey('f4', stop_auto_click)
 
 # Khởi tạo biến để dừng auto-click
 stop_clicking = True
